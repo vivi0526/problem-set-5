@@ -25,9 +25,9 @@ following:
    in `lamina.bed`? (**10 points**)
 
 2. What is the region with the largest end position on chrY in
-   lamina.bed? (**10 points**) Report as:
+   lamina.bed? (**10 points**) Report as::
 
-   chrom <tab> start <tab> end <tab> value <tab> region_length
+    chrom <tab> start <tab> end <tab> value <tab> region_length
 
 
 Problem 2 (FASTQ files)
@@ -55,7 +55,5 @@ following:
    points**). You will have to define a `reverse_complement()` method, or find
    one from another package.
 
-.. note::
-
-    The reverse complement of ``5'-AGCTCGTA-3''`` is ``5'-TACGAGCT-3'``
+Note that the reverse complement of `5'-AGCTCGTA-3'` is `5'-TACGAGCT-3'`.
 
